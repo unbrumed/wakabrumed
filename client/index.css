@@ -1,0 +1,38 @@
+body {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 10px;
+	font-size: 20px;
+	font-family: monospace;
+}
+smaller > * {
+	transform: scale(0.5);
+}
+
+yetanotherdialogue {
+	background-color: #aaaaa975;
+	padding: 10px 12px;
+	margin: 10px 0;
+	-webkit-user-modify: read-write-plaintext-only;
+}
+
+.popup {
+	box-shadow: black 2px 2px;
+}
+
+.popup.error {
+	background-color: red;
+	font-weight: bolder;
+	color: white;
+}
+
+.sprite.filter-gray-dwn {
+	filter: grayscale(1);
+	transform: translate(0px, 12px) scale(0.7);
+}
+
+#bobik {
+	font-size: 1.5em;
+	font-weight: bolder;
+}
